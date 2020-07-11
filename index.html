@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h2>Stop Watch</h2>
+
+    </div>
+    <div class="container bg-success" id="main-box">
+
+        <div class="flex-container  bg-dark" id=headings>
+
+
+            <h1 id="min" style="width:50px;margin-left:5px;margin-right: 5px;">00:</h1>
+
+            <h1 id="sec" style="width:50px;margin-left:5px;margin-right: 5px;">00:</h1>
+
+
+            <h1 id="msec" style="width:50px;margin-left:5px;margin-right: 5px;">00</h1>
+
+        </div>
+    </div>
+    <br>
+
+
+
+    <div class="flex-container">
+        <button class=btn-primary id="start" onclick="start()"
+         style="width:100px;border-radius: 10px;margin-left:5px;margin-right: 5px;border:1px solid blue">Start</button>
+        <button class=btn-danger id="stop" onclick="stop()"
+         style="width:100px;border-radius: 10px;margin-left:5px;margin-right: 5px;border:1px solid red">Stop</button>
+        <button class=btn-warning id="reset" onclick="reset()" 
+        style="width:100px;border-radius: 10px;color:white;margin-left:5px;margin-right: 5px;border:1px solid orange">Reset</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="app.js">
+
+    </script>
+</body>
+
+</html>

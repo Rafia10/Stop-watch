@@ -1,0 +1,31 @@
+
+.flex-container{
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    align-items: center;
+    align-content: space-between;
+    
+}
+@media only screen and (max-width: 900px) {
+    #headings {
+    height:100px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+     
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    align-items: center;
+    align-content: space-around;
+    }
+  }
+
